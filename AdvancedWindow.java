@@ -1,5 +1,3 @@
-package pl.jsystems.szkolenie.java.window;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
