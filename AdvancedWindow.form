@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="13" y="20" width="574" height="440"/>
+      <xy x="13" y="20" width="904" height="593"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -11,7 +11,7 @@
       <component id="e5b47" class="javax.swing.JTextField" binding="longitudeText">
         <constraints>
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="2" use-parent-layout="false">
-            <preferred-size width="432" height="30"/>
+            <preferred-size width="543" height="30"/>
           </grid>
         </constraints>
         <properties/>
@@ -19,7 +19,7 @@
       <component id="3a82a" class="javax.swing.JTextField" binding="latitudeText">
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="2" use-parent-layout="false">
-            <preferred-size width="432" height="30"/>
+            <preferred-size width="543" height="30"/>
           </grid>
         </constraints>
         <properties/>
@@ -27,7 +27,7 @@
       <component id="187ef" class="javax.swing.JCheckBox" binding="plCheckBox" default-binding="true">
         <constraints>
           <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="2" use-parent-layout="false">
-            <preferred-size width="432" height="18"/>
+            <preferred-size width="543" height="18"/>
           </grid>
         </constraints>
         <properties>
@@ -37,31 +37,17 @@
       <component id="d05e3" class="javax.swing.JLabel" binding="UrlLabel">
         <constraints>
           <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="2" use-parent-layout="false">
-            <preferred-size width="432" height="42"/>
+            <preferred-size width="543" height="42"/>
           </grid>
         </constraints>
         <properties>
           <text value=""/>
         </properties>
       </component>
-      <component id="a721a" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="2" use-parent-layout="false">
-            <preferred-size width="432" height="16"/>
-          </grid>
-        </constraints>
-        <properties>
-          <alignmentY value="1.0"/>
-          <horizontalAlignment value="2"/>
-          <labelFor value="584e6"/>
-          <text value="3 words"/>
-          <verticalAlignment value="0"/>
-        </properties>
-      </component>
       <component id="4c1b0" class="javax.swing.JLabel">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="2" use-parent-layout="false">
-            <preferred-size width="432" height="16"/>
+            <preferred-size width="543" height="16"/>
           </grid>
         </constraints>
         <properties>
@@ -72,7 +58,7 @@
       <component id="168da" class="javax.swing.JLabel">
         <constraints>
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="2" use-parent-layout="false">
-            <preferred-size width="432" height="16"/>
+            <preferred-size width="543" height="16"/>
           </grid>
         </constraints>
         <properties>
@@ -83,7 +69,7 @@
       <component id="584e6" class="javax.swing.JTextField" binding="wordsTextField">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="2" use-parent-layout="false">
-            <preferred-size width="432" height="30"/>
+            <preferred-size width="543" height="30"/>
           </grid>
         </constraints>
         <properties/>
@@ -106,7 +92,9 @@
       </component>
       <component id="dff65" class="javax.swing.JLabel" binding="ResponseLabel">
         <constraints>
-          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false"/>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="2" use-parent-layout="false">
+            <preferred-size width="543" height="0"/>
+          </grid>
         </constraints>
         <properties>
           <text value=""/>
@@ -118,6 +106,20 @@
         </constraints>
         <properties>
           <text value="RANDOM"/>
+        </properties>
+      </component>
+      <component id="a721a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="2" use-parent-layout="false">
+            <preferred-size width="543" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <alignmentY value="1.0"/>
+          <horizontalAlignment value="2"/>
+          <labelFor value="584e6"/>
+          <text value="3 words"/>
+          <verticalAlignment value="0"/>
         </properties>
       </component>
     </children>
